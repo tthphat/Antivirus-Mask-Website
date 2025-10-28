@@ -397,9 +397,50 @@
 
 /* End Section-four */
 
+/* Section-five */
+.section-five{
+  background-color: #F0F2F5;
+  width: 100%;
+}
 
+.section-five .inner-wrap{
+  padding: 50px 0;
+}
 
+.section-five .inner-wrap .inner-content{
+  background-image: url("https://mobirise.com/extensions/curem4/mask-store/assets/images/background23.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
 
+.section-five .inner-wrap .inner-content .inner-title{
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 20px;
+  font-size: 18px;
+}
 
+.section-five .inner-wrap .inner-content .btn{
+  color: white;
+  padding: 13px 40px;
+  background-color: #13A05D;
+  border-radius: 45px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
 
+.section-five .inner-wrap .inner-content .btn:hover{
+  background-color: white;
+  color: #13A05D;
+  border: 1px solid #13A05D;
+}
+
+/* End Section-five */
 
