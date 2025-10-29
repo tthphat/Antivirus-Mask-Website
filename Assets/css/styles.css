@@ -585,8 +585,69 @@
 
 /* End Section-eight */
 
+/* Section-nine */
+.section-nine{
+  width: 100%;
+  background-color: #ededed;
+}
 
+.section-nine .inner-wrap{
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+}
+
+.section-nine .inner-wrap .head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section-nine .inner-wrap .inner-title{
+  color: var(--color-primary);
+  font-size: 48px;
+}
+
+.section-nine .inner-wrap .head .icon{
+  color: var(--color-secondary);
+  font-size: 48px;
+}
+
+.section-nine .inner-wrap .inner-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.section-nine .inner-wrap .inner-list .inner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: white;
+  padding: 20px 30px;
+}
+
+.section-nine .inner-wrap .inner-list .inner-box .content{
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.section-nine .inner-wrap .inner-list .inner-box .head-name{
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.section-nine .inner-wrap .inner-list .inner-box .star{
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+/* End Section-nine */
 
 
 
