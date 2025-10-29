@@ -483,11 +483,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: all 1 ease;
+  transition: all 0.5s ease;
 }
 
 .section-six .inner-wrap .inner-list .inner-box .image img:hover{
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 
 .section-six .inner-wrap .inner-list .inner-box .inner-content{
@@ -518,8 +518,6 @@
 }
 
 /* End Section-six */
-
-
 
 
 
