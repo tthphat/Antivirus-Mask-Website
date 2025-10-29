@@ -519,7 +519,44 @@
 
 /* End Section-six */
 
+/* Section-seven */
+.section-seven{
+  width: 100%;
+  background-color: #ededed;
+}
 
+.section-seven .inner-wrap{
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section-seven .inner-wrap .inner-title{
+  color: var(--color-primary);
+  font-size: 32px;
+  max-width: 30%;
+  text-align: center;
+}
+
+.section-seven .inner-wrap .inner-input{
+  display: flex;
+  gap: 20px;
+}
+
+.section-seven .inner-wrap .inner-input #input-sub{
+  width: 450px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  color: var(--color-text);
+}
+
+/* End Section-seven */
 
 
 
